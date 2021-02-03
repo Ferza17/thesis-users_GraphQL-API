@@ -1,0 +1,35 @@
+{
+  "name": "thesis-users_graphql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node  src/index.js --ext js,graphql",
+    "dev": "nodemon --exec babel-node  src/index.js --ext js,graphql",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --presets='@babel/preset-env'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferza17/thesis-users_GraphQL-API.git"
+  },
+  "author": "Fery Reza Aditya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ferza17/thesis-users_GraphQL-API/issues"
+  },
+  "homepage": "https://github.com/Ferza17/thesis-users_GraphQL-API#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.11.14"
+  }
+}
